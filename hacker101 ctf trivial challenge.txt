@@ -1,0 +1,7 @@
+It is always a good idea to inspect a web application to find more info about the app since many developers hide some info in the DOM.
+So i started by inpecting the page. There was nothing interesting in the elements section so i decided to view what incoming connection are there in the app. And boom, there was a background
+image loading which i was not seeing in the page therefore i decided to open it and i found my flag. ie: id.ctf.hacker101.com/background.png
+
+# stay tuned for more contents.
+
+# HACKER101 CTF FIRST CHALLENGE
