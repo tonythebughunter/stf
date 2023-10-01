@@ -1,0 +1,7 @@
+# flag 0
+first i inspected the web app to look for something interesting. Later i decided to open the first link to find more info. 
+By looking at the url i realised it has a potentially vulnerable parameter 1 i.e /edit/1. so i decided to bruteforce the parameter 1 with other numbers to find out if there is an idor.
+And boom there is 4 i.e edit/4 which has our first flag.
+
+# flag 1
+on looking on the home page, realised the link name was the same as the title
