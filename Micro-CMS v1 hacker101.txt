@@ -4,4 +4,4 @@ By looking at the url i realised it has a potentially vulnerable parameter 1 i.e
 And boom there is 4 i.e edit/4 which has our first flag.
 
 # flag 1
-on looking on the home page, realised the link name was the same as the title
+on markdown test ./page/edit/2, i realised the textarea is vulnerable to xss and on putting my xss payload in form of an event listener on the <img> tag ie {<img src="https://static1.squarespace.com/static/54e8ba93e4b07c3f655b452e/t/56c2a04520c64707756f4267/1493764650017" onerror=alert()>} and the <button> tag ie {<button onclick=alert()>some button</button>}, boom i found the flag but its hidden in the DOM ie inspect or view source to see it otherwise you won't see it.
