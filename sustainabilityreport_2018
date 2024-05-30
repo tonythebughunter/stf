@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <book id="1">
+        <title>The Catcher in the Rye</title>
+        <author>J.D. Salinger</author>
+        <genre>Fiction</genre>
+        <price>10.99</price>
+        <publish_date>1951-07-16</publish_date>
+        <description>A story about the events in the life of a young boy.</description>
+    </book>
+    <book id="2">
+        <title>1984</title>
+        <author>George Orwell</author>
+        <genre>Dystopian</genre>
+        <price>8.99</price>
+        <publish_date>1949-06-08</publish_date>
+        <description>A novel about a dystopian future under a totalitarian regime.</description>
+    </book>
+    <book id="3">
+        <title>To Kill a Mockingbird</title>
+        <author>Harper Lee</author>
+        <genre>Fiction</genre>
+        <price>7.99</price>
+        <publish_date>1960-07-11</publish_date>
+        <description>A novel about the serious issues of rape and racial inequality.</description>
+    </book>
+</catalog>
